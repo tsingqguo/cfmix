@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6e8db03b-ad05-4be5-828b-faf2143bea66" name="cfmix" url="http://155.69.147.235">
+        <fileTransfer host="155.69.147.235" port="32884" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="32884" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
