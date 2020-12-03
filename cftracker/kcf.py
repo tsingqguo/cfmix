@@ -187,9 +187,9 @@ class KCF(BaseCF):
             alphafs = np.stack(alphafs)
             alphaf_new = alphafs.mean(axis=0)
 
-
         self.alphaf = self.interp_factor * alphaf_new + (1 - self.interp_factor) * self.alphaf
         self.xf = self.interp_factor * new_xf + (1 - self.interp_factor) * self.xf
+
         return [(self._center[0] - self.w / 2), (self._center[1] - self.h / 2), self.w, self.h]
 
     def _kernel_correlation(self, xf, yf, kernel='gaussian'):

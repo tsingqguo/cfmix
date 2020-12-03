@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-python ope_otb.py
+export PYTHONPATH=/mnt/nvme/cfmix/:$PYTHONPATH
+#python ope_otb.py
+python ../eval/eval_OTB.py
